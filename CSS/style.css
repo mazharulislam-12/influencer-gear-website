@@ -75,59 +75,106 @@ nav li a {
   margin-top: 15px;
   margin-bottom: 15px;
 }
-.banner-content button{
-    margin-left: 120px;
+.banner-content button {
+  margin-left: 120px;
 }
 /* banenr section end */
 
 /* brand section start */
-.brand-image{
-    display: flex;
-    justify-content: center;
-    gap: 70px;
-    margin: 50px 200px;
+.brand-image {
+  display: flex;
+  justify-content: center;
+  gap: 70px;
+  margin: 50px 200px;
 }
 /* brand section end */
 
-
-
-
-
-
-
-
-
-
-@media screen and (max-width:576px) {
-    nav{
-        flex-direction: column;
-        align-items: center;
-        gap: 30px;
-    }
-    .banner-container{
-        flex-direction: column-reverse;
-    }
-    .banner-content{
-        margin-top: 100px;
-        margin-right: 100px;
-    }
-    .banner-image{
-        margin-top: 600px;
-    }
-    .banner-image img{
-        width: 80%;
-    }
-    .brand-image{
-       display: grid;
-       grid-template-columns: repeat(2, 1fr);
-        margin-top: 550px;
-    }
+/* Popular Collection section start */
+.popular-container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 0 auto;
+  max-width: 1100px;
+  margin-bottom: 50px;
+}
+.popular-heading {
+  text-align: center;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 70px;
+  color: #3a3a3a;
+  margin: 50px 0;
+  
+}
+.popular-box {
+  width: 329px;
+  height: 476px;
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+  text-align: center;
+}
+.popular-box img {
+  border-radius: 5px;
+  width: 300px;
+  height: 256px;
+}
+.popular-box h4 {
+  color: #18191f;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 40px;
+}
+.popular-box strong {
+  color: rgba(0, 0, 0, 0.87);
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 150%;
+}
+.popular-box p i {
+  color: #fb8200;
+  width: 11.068px;
+  height: 10.316px;
+  flex-shrink: 0;
+  margin-right: 5px;
+}
+.popular-box-margin{
+  margin-bottom: 50px;
 }
 
-@media screen and (min-width:577px) and (max-width:960px) {
-    nav{
-        flex-direction: column;
-        align-items: center;
-        gap: 30px;
-    }
+/* Popular Collection section end */
+
+@media screen and (max-width: 576px) {
+  nav {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+  .banner-container {
+    flex-direction: column-reverse;
+  }
+  .banner-content {
+    margin-top: 100px;
+    margin-right: 100px;
+  }
+  .banner-image {
+    margin-top: 600px;
+  }
+  .banner-image img {
+    width: 80%;
+  }
+  .brand-image {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 550px;
+  }
+}
+
+@media screen and (min-width: 577px) and (max-width: 960px) {
+  nav {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
 }
