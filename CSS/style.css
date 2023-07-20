@@ -90,12 +90,13 @@ nav li a {
 /* brand section end */
 
 /* Popular Collection section start */
-.popular-container{
+.popular-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   margin: 0 auto;
   max-width: 1100px;
-  margin-bottom: 50px;
+  margin-bottom: 100px;
+
 }
 .popular-heading {
   text-align: center;
@@ -104,7 +105,6 @@ nav li a {
   line-height: 70px;
   color: #3a3a3a;
   margin: 50px 0;
-  
 }
 .popular-box {
   width: 329px;
@@ -139,11 +139,35 @@ nav li a {
   flex-shrink: 0;
   margin-right: 5px;
 }
-.popular-box-margin{
+.popular-box-margin {
   margin-bottom: 50px;
 }
 
 /* Popular Collection section end */
+
+/* feature section start */
+.feature-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+.feature-content h2 {
+  color: #0a0826;
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 60px;
+}
+.feature-content p {
+  color: #6c6c6c;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 28px;
+  margin-bottom: 10px;
+}
+/* feature section en */
 
 @media screen and (max-width: 576px) {
   nav {
@@ -169,7 +193,7 @@ nav li a {
     grid-template-columns: repeat(3, 1fr);
     margin-top: 550px;
   }
-  .popular-container{
+  .popular-container {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
   }
