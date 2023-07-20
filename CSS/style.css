@@ -96,7 +96,6 @@ nav li a {
   margin: 0 auto;
   max-width: 1100px;
   margin-bottom: 100px;
-
 }
 .popular-heading {
   text-align: center;
@@ -170,6 +169,38 @@ nav li a {
 }
 /* feature section en */
 
+/* footer section start */
+footer {
+  background: #0a0826;
+  height: 300px;
+}
+footer h3 {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+footer p {
+  text-align: center;
+  color: #d9dbe1;
+  font-family: Manrope;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+}
+.icon{
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  margin-top: 20px;
+}
+.icon i{
+  margin-right: 20px;
+}
+/* footer section end */
+
 @media screen and (max-width: 576px) {
   nav {
     flex-direction: column;
@@ -198,10 +229,10 @@ nav li a {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
   }
-  .feature-container{
+  .feature-container {
     flex-direction: column;
   }
-  .feature-image img{
+  .feature-image img {
     width: 90%;
   }
 }
